@@ -1,0 +1,31 @@
+.currencies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.currencies select{
+    padding: 14px 126px;
+    font-size: 18px;
+    line-height: 21px;
+    box-shadow: 3px 3px 10px rgba(14, 87, 214, 0.26);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-position: right 25px center;
+    border: none;
+}
+
+.currencies select:focus{
+    border-color: unset;
+    box-shadow: 3px 3px 10px rgba(14, 87, 214, 0.26);
+}
+
+.currencies .change{
+    margin: 0 22px;
+    background: unset;
+    border: none;
+}

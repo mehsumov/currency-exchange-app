@@ -1,0 +1,61 @@
+.amount {
+  box-shadow: 1px 1px 6px rgba(14, 87, 214, 0.26);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 22px 35px;
+}
+
+.amount .head {
+  margin-bottom: 12px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.amount form input {
+  background-color: #f2f2f2;
+  font-size: 16px;
+  line-height: 18.75px;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 18px 20px;
+}
+.amount form input:focus {
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+}
+.amount form button {
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+  -ms-border-radius: 0 10px 10px 0;
+  -o-border-radius: 0 10px 10px 0;
+  padding: 17px 39px;
+  background-color: #ffff;
+}
+
+.amount form button:hover {
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.amount form button:focus {
+  background-color: #fff;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.amount .result {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 22px 0;
+}
+
+.amount .result .result-amount{
+  margin-right: 8px;
+}

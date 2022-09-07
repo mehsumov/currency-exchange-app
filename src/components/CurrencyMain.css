@@ -1,0 +1,16 @@
+.currency-main{
+    width: 685px;
+}
+
+.currency-main .loading{
+    text-align: center;
+    font-size: 85px;
+    color: #3b76dd;
+    font-weight: bold;
+}
+.currency-main .error{
+    text-align: center;
+    font-size: 85px;
+    color: red;
+    font-weight: bold;
+}
